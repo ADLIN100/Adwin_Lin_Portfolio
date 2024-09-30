@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+    text-decoration: none;
+}
+ 
+ body {
+
+       background: #EBC683;
+
+       display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      font-family: Kanit, sans-serif;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;          
+    font-size: 52px;         
+    font-weight: bold;        
+    color: darkgoldenrod;           
+    background-color: #f2c94c; 
+    text-align: center;
+}
+
+nav {
+
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+ 
+    word-spacing: 150px;
+ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 30px;
+ 
+    color: #B6D8EB;
+    text-align: center;
+ 
+    text-transform: uppercase;
+    border-color: blue;
+    border-style: solid 1px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: lightcoral;
+    background-color: yellow;
+    border: 2px solid red;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: yellow;
+}
+
+h1 { 
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #F0C21B;
+
+    border: 1px thin solid lightcoral;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .footer {
+    
+    display: block;
+
+    font-family: "Kanit", sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+    color: lightcoral;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding: 488px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-spacing: 5px;
+}
+
+.End a:hover {
+   background-color: burlywood;
+   color: yellow;
+}
+
+
+img {
+    height: 78%;
+    width: 78%;
+    background-color: #EBC683;
+}

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+    text-decoration: none;
+}
+ 
+ body {
+
+       background: #EBC683;
+
+}
+
+nav {
+
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+ 
+    word-spacing: 150px;
+ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 30px;
+ 
+    color: #B6D8EB;
+    text-align: center;
+ 
+    text-transform: uppercase;
+    border-color: blue;
+    border-style: solid 1px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: lightcoral;
+    background-color: yellow;
+    border: 2px solid red;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: yellow;
+}
+
+
+h1 { 
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #F0C21B;
+
+    border: 1px thin solid black;
+    text-align: center;
+    text-transform: lowercase;
+    
+ }
+
+ .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 25%;
+    height: auto; 
+    padding: 0;
+    margin: 0;
+}
+
+ img {
+       height: 50%;
+       width: 50%;
+
+       padding-top: 30px;
+       padding-bottom: 15px;
+       padding-right: 20px;
+       padding-left: 30px;
+
+       display: block;
+       margin-left: auto;
+       margin-right: auto;      
+}
+
+p {
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 2%; 
+    padding-top: 1%;
+ 
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+ 
+    border: 2% solid black;
+}
+
+
+.me {
+
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+ 
+    word-spacing: 150px;
+ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 30px;
+ 
+    color: #B6D8EB;
+    text-align: center;
+ 
+    text-transform: uppercase;
+    border-color: blue;
+    border-style: solid 1px;
+}
+
+.athlete {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 4%;
+    column-gap: 2%;
+}
+
+
+.footer {
+    
+    display: block;
+
+    font-family: "Kanit", sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+    color: lightcoral;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding: 488px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-spacing: 5px;
+}

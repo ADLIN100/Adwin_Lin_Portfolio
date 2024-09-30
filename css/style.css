@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+    text-decoration: none;
+}
+ 
+ body {
+
+       background: #EBC683;
+
+}
+
+nav {
+
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+ 
+    word-spacing: 150px;
+ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 30px;
+ 
+    color: #B6D8EB;
+    text-align: center;
+ 
+    text-transform: uppercase;
+    border-color: blue;
+    border-style: solid 1px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: lightcoral;
+    background-color: yellow;
+    border: 2px solid red;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: yellow;
+}
+
+
+h1 { 
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #F0C21B;
+
+    border: 1px thin solid black;
+    text-align: center;
+    text-transform: uppercase;
+    
+ }
+
+ .container {
+    display: flex;
+    justify-content: column;
+    align-items: left;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.image {
+    width: 45%;
+    text-align: left;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    font-family: "Kanit", sans-serif;
+    width: 60;
+    margin-top: 10px;
+    flex: 2;
+    padding: 5px;
+    background-color: #ffd700;
+    font-weight: 600;
+    color: lightcoral;
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: left;
+    text-transform: none;
+}
+
+ img {
+       height: 60%;
+       width: 60%;
+
+       padding-top: 30px;
+       padding-bottom: 15px;
+       padding-right: 20px;
+       padding-left: 30px;
+
+       display: block;
+       margin-left: auto;
+       margin-right: auto;      
+}
+
+
+.me {
+
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+ 
+    word-spacing: 150px;
+ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 30px;
+ 
+    color: #B6D8EB;
+    text-align: center;
+ 
+    text-transform: uppercase;
+    border-color: blue;
+    border-style: solid 1px;
+}
+
+.capitalize {
+    text-transform: lowercase; 
+}
+
+.first-letter {
+    text-transform: uppercase; 
+}
+
+h4 {
+    color: lightcoral;
+    text-shadow: 1px 1px black;
+        font-size: 36px;
+        text-align: center;
+}
+
+
+.footer {
+    
+    display: block;
+
+    font-family: "Kanit", sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+    color: lightcoral;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding: 488px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-spacing: 5px;
+}
