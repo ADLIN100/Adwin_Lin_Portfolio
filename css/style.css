@@ -69,7 +69,7 @@ h1 {
  .container {
     display: flex;
     justify-content: column;
-    align-items: left;
+    align-items: center;
     margin-bottom: 40px;
     padding: 20px;
 }
