@@ -68,15 +68,16 @@ h1 {
 
  .container {
     display: flex;
-    justify-content: column;
+    justify-content: center;
     align-items: center;
     margin-bottom: 40px;
     padding: 20px;
 }
 
 .image {
-    width: 45%;
+    width: 35%;
     text-align: left;
+    
 }
 
 .image img {
@@ -94,7 +95,7 @@ h1 {
     background-color: #ffd700;
     font-weight: 600;
     color: lightcoral;
-    font-size: 40px;
+    font-size: 150%;
     line-height: 1.6;
     text-align: left;
     text-transform: none;
@@ -147,10 +148,11 @@ h1 {
 }
 
 h4 {
-    color: lightcoral;
+    color: black;
     text-shadow: 1px 1px black;
-        font-size: 36px;
+        font-size: 110%;
         text-align: center;
+        font-weight: 400;
 }
 
 
@@ -161,13 +163,14 @@ h4 {
     font-family: "Kanit", sans-serif;
     margin-top: 10px;
     font-weight: 600;
-    color: lightcoral;
+    color: black;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
-
-    padding: 488px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color:#F0C21B;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+   
     word-spacing: 5px;
 }

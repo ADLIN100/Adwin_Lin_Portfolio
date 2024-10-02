@@ -14,7 +14,7 @@
       justify-content: center;
       align-items: center;
       height: 100vh; 
-      font-family: Kanit, sans-serif;
+      font-family: "Kanit", sans-serif;
 }
 
 .center-text {
@@ -39,7 +39,7 @@ nav {
  
     word-spacing: 150px;
  
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 20px;
     padding-left: 30px;
@@ -89,14 +89,15 @@ h1 {
     font-family: "Kanit", sans-serif;
     margin-top: 10px;
     font-weight: 600;
-    color: lightcoral;
+    color: black;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
-
-    padding: 488px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color:#F0C21B;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+   
     word-spacing: 5px;
 }
 
@@ -107,7 +108,7 @@ h1 {
 
 
 img {
-    height: 60%;
-    width: 60%;
+    height: 78%;
+    width: 78%;
     background-color: #EBC683;
 }
